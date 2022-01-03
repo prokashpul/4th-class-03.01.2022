@@ -4,5 +4,12 @@
 body{
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
-    color:blue
+}
+.header-area{
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.flex-box{
+    display:flex;
 }
