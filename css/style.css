@@ -59,6 +59,11 @@ a.btn:hover{
     background-image: linear-gradient(to right, rgb(251,102,85),rgb(219, 166, 50));
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.experiences-area{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experiences-area .width-50 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 30px;
@@ -69,9 +74,13 @@ a.btn:hover{
 }
 .experiences-area .width-50:nth-of-type(1){
     border-left: 5px solid;
-    border-image: linear-gradient(rgb(0, 255, 42),rgb(225, 0, 255));
+    border-image: linear-gradient(rgb(251,102,85),rgb(0, 60, 226));
     border-image-slice: 1;
 }
 .ex-text{
     text-align: center;
+}
+.footer-area{
+    text-align: center;
+    font-style: italic;
 }
