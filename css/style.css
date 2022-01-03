@@ -8,8 +8,16 @@ body{
 .header-area{
     background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
+    padding: 40px 20px;
 
 }
 .flex-box{
     display:flex;
+    justify-content: space-evenly;
+}
+.header-area .width-50{
+ width:45%;
+}
+.header-area img{
+    width:100%;
 }
